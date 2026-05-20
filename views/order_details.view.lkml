@@ -27,6 +27,7 @@ view: order_details {
     sql: ${TABLE}.Discount ;;
   }
   dimension_group: order {
+    label: "Time &"
     type: time
     timeframes: [raw, date, week, month, quarter, year]
     convert_tz: no
