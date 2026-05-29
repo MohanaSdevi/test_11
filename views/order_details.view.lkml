@@ -95,6 +95,6 @@ view: order_details {
   }
   measure: count {
     type: count
-    drill_fields: [customer_name, product_name]
+    drill_fields: [customer_name, product_name,sub_category]
   }
 }
